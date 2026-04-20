@@ -1,5 +1,6 @@
-# terraform-vcfa-projects
-This module creates a VCFA Project in a given region.  It uses the kubernetes provider and does not do a lot with out a previousely established VCFA connection.
+# terraform-vcfa-project
+
+Terraform module — creates a VCFA Project using the CCI Kubernetes provider. Requires an established VCFA connection (provider configured with URL, org, and API token).
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
