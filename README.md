@@ -8,7 +8,6 @@ Terraform module — creates a VCFA Project using the CCI Kubernetes provider. R
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.14.0 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | >= 3.0.0 |
-| <a name="requirement_vcfa"></a> [vcfa](#requirement\_vcfa) | >= 1.0.0 |
 
 ## Providers
 
@@ -30,10 +29,12 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_description"></a> [description](#input\_description) | Created by TF - Do not edit! | `string` | n/a | yes |
+| <a name="input_description"></a> [description](#input\_description) | Description for the VCFA project | `string` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | The name of the project to create | `string` | n/a | yes |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_project"></a> [project](#output\_project) | Created Project manifest |
 <!-- END_TF_DOCS -->
