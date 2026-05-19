@@ -5,5 +5,5 @@ variable "project_name" {
 
 variable "description" {
   type        = string
-  description = "Created by TF - Do not edit!"
+  description = "Description for the VCFA project"
 }
